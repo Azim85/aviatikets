@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+body{
+    background-image: url('../assets/images/flight.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar{
+    opacity: .7;
+}
+
+.card{
+    opacity: .9;
+}

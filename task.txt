@@ -1,0 +1,53 @@
+1. Building apiService
+    -- class name ApiService 
+    -- fethches data with axios countries, cities, ticket-prices
+    -- endpoints url/countries, url/cities, url/prices/cheap
+    -- methods: countries(), cities(), prices(params)
+    -- export default api
+
+2. Building store
+    -- class name Locations
+    -- import api
+
+
+
+
+
+cities
+    {
+        cases: {da: 'Быдгощу', pr: 'Быдгоще', ro: 'Быдгоща', su: 'Быдгощ', tv: 'Быдгощом', …}
+        code: "BZG"
+        coordinates: {lat: 53.09667, lon: 17.978611}
+        country_code: "PL"
+        name: "Быдгощ"
+        name_translations: {en: 'Bydgoszcz'}
+        time_zone: "Europe/Warsaw"
+    }
+
+countries
+    {
+        cases: {da: 'Польше', pr: 'Польше', ro: 'Польши', su: 'Польша', tv: 'Польшей', …}
+        code: "PL"
+        currency: "PLN"
+        name: "Польша"
+        name_translations: {en: 'Poland'}
+    }
+
+prices/cheap
+
+{
+
+currency: "USD"
+data:
+    2022-07-27:
+    airline: "TK"
+    departure_at: "2022-07-27T09:05:00+05:00"
+    destination: "NYC"
+    expires_at: "2022-07-28T09:41:50Z"
+    flight_number: 369
+    origin: "TAS"
+    price: 3176
+    return_at: "2022-07-31T23:50:00-04:00"
+    transfers: 1
+success: true
+}
