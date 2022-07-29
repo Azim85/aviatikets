@@ -59,7 +59,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(), 
     new HtmlWebpackPlugin({
-      title: "Webpack App",
+      title: "Aviasales",
       filename: "index.html",
       template: "./src/index.html",
       inject: true,
