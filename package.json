@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode=production",
     "dev": "webpack serve"
   },
   "keywords": [],
@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "bootstrap-icons": "^1.9.1",
+    "clean-webpack-plugin": "^4.0.0",
     "date-fns": "^2.29.1"
   }
 }

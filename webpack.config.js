@@ -3,6 +3,7 @@ const loader = require("sass-loader");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { watch } = require("fs");
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 
 module.exports = {
   mode: "development",
@@ -56,6 +57,7 @@ module.exports = {
   },
 
   plugins: [
+    new CleanWebpackPlugin(), 
     new HtmlWebpackPlugin({
       title: "Webpack App",
       filename: "index.html",
